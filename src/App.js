@@ -9,7 +9,6 @@ function App() {
     <div className="App">
       <h1>Chuck Quotes</h1>
       <Quote />
-      <Quote quote="Some chuck quote"/>
       <Select />
     </div>
   );
