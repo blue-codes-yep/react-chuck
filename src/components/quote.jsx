@@ -4,10 +4,11 @@ class Quote extends Component {
   render() {
     return (
       <div>
-        <p>Chuck Says...</p>
+        <p>Chuck Says..{this.props.quote}.</p>
       </div>
     );
   }
 }
+
 
 export default Quote;
